@@ -1,0 +1,109 @@
+.main-list{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color:#2196f3;
+    border-radius: 20px;
+ 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: .4s all;
+       
+}
+
+li:hover { 
+        background-color:#2195f38e;
+}
+.date-picker-title{
+    font-size: 20px;
+    margin: 5px;
+    display: inline;
+}
+.date-picker {
+
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: white!important;
+    font-weight: bold;
+       padding: 20px;
+    
+
+}
+
+span{
+    display: block;
+}
+input{
+    display: block;
+}
+.main-row{
+    
+    margin: 20px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.reg-btn{
+     background-color:#2196f3;
+     margin:5px;
+     border: none;
+     padding: 10px;
+     border-radius: 5px;
+     margin-left: 20px;
+     color: white;
+     font-weight: bold;
+     transition: .2s all;
+}
+.reg-btn:hover{
+    opacity: .7;
+}
+
+.item-frame { 
+    margin: 10px;
+    background-color: #2196f3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.item-frame span {
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.item-frame input {
+    border: none;
+    border-radius: 5px;
+    
+}
+ul {
+    margin: 0;
+}
+li button {
+
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: .4s all;
+
+}
+li button:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
